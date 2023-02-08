@@ -121,9 +121,61 @@ nav ul li {
 
 .bio h1{
     margin-bottom: var(--bottom-margin);
+    text-shadow: 1px 1px 1px var(--secondary-shadow);
 }
 
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+}
+/*Fin de Seccion Dav*/
+
+/*Seccion Skills*/
+.skills {
+    max-width: 68rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.encabezado-skills {
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px var(--secondary-shadow);
+}
+
+.contenedor-skills img {
+    padding: 1.25rem;
+}
+
+.icono {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.tarjeta-icono {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+/*Fin de seccion Skills*/
+
+/*Sección Contacto*/
+.contacto {
+    margin-top: 2rem;
+}
+
+.contacto h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--secondary-shadow);
+    margin-bottom: var(--bottom-margin-2);
+}
+
+.contenedor-formulario-contacto {
+    max-width: 41rem;
+    margin: 0 auto;
+    padding: 0.95rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
 }
